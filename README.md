@@ -1,10 +1,10 @@
 # SENTINEL-RISK | Unified AI/NLP Risk Engine & Strategic Wholesale Portfolio Stress Tester - S&P Global & Crisil Campus Hackathon
 
-**Candidate Name:** [Candidate Full Name]  
-**College Email ID:** [candidate_email@college.edu]  
-**College / Campus:** [University / Institute Name]  
+**Candidate Name:** Amrit Raj  
+**College Email ID:** [your_id@vitap.ac.in]  
+**College / Campus:** Vellore Institute Of Technology - AP (VIT-AP)  
 **Demo Video Link:** [https://youtu.be/unlisted-demo-link](https://youtu.be/unlisted-demo-link)  
-**Slide Deck Link (if hosted externally):** [presentation.pdf](docs/presentation.pdf) *(also hosted at: https://speakerdeck.com/candidate/sentinel-risk-crisil-presentation)*  
+**Slide Deck Link (if hosted externally):** [View presentation.pdf on GitHub](https://github.com/techierizz/vitap-amritraj-hackathon/blob/main/docs/presentation.pdf)  
 
 ---
 
@@ -110,8 +110,8 @@ Our solution, **SENTINEL-RISK**, bridges this gap through a two-tier modular arc
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/techierizz/vitap-amritraj-hackathon.git
+cd vitap-amritraj-hackathon
 
 # 2. (Optional) Create and activate a virtual environment
 python -m venv venv
@@ -169,5 +169,5 @@ Strictly verified against the S&P Global & CRISIL Campus Hackathon submission cr
 - [x] **IP Ownership & Confidentiality (Section 8 & 9):** 100% simulated exercise using synthetic wholesale banking books and open-source datasets; zero confidential client data from S&P Global or CRISIL used.
 - [x] **Tie-Breaker Optimization (Section 11):** 
   - **Domain Understanding:** Full Basel III Standardized RWA, CAR, Expected Loss ($EL$), 99% Parametric VaR & CVaR, duration repricing, and Loughran-McDonald financial sentiment modeling.
-  - **Presentation & Communication:** Complete 7-slide deck (`presentation/presentation_deck.md`), timed demo video script (`presentation/demo_video_script.md`), and jury pitch Q&A guide (`presentation/jury_qa_prep.md`).
+  - **Presentation & Communication:** Complete 7-slide deck ([presentation.pdf](docs/presentation.pdf)) and system architecture diagram ([architecture.png](docs/architecture.png)).
 - [x] **Repository Hygiene & Commits (Section 14):** Clean build structure, `.gitignore` active (zero binary dumps), and incremental Git commits reflecting modular development progression.
