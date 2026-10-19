@@ -123,24 +123,17 @@ source venv/bin/activate
 # 3. Install required dependencies
 pip install -r requirements.txt
 
-# 4. Run the comprehensive test verification suite (14/14 tests)
-python run_tests.py
-
-# 5. Launch both FastAPI Backend and Streamlit Dashboard
-# Option A (Windows 1-Click Script):
-run_demo.bat
-
-# Option B (Linux / macOS Shell Script):
-chmod +x run_demo.sh
-./run_demo.sh
-
-# Option C (Manual Launch in separate terminals):
-# Terminal 1: Launch FastAPI Backend
-python -m uvicorn src.api.main:app --host 127.0.0.1 --port 8000 --reload
-
-# Terminal 2: Launch Streamlit Executive Dashboard
-streamlit run src/dashboard/app.py
+# 4. Run application
+python main.py
 ```
+
+### Alternative Execution Options
+- **Streamlit Interactive Cockpit (Default):** `python main.py` or `streamlit run src/dashboard/app.py`
+- **FastAPI REST Backend:** `python main.py --mode api` or `python -m uvicorn src.api.main:app --port 8000 --reload`
+- **Verification Test Suite (14/14 passing):** `python main.py --mode test` or `python run_tests.py`
+- **Windows 1-Click Runner (Starts both API & Dashboard):** `run_demo.bat`
+- **Linux / macOS Shell Script:** `./run_demo.sh`
+
 
 ### Access URLs
 - **Interactive Executive Dashboard:** `http://localhost:8501`
