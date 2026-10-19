@@ -1,0 +1,72 @@
+[
+  {
+    "id": "NEWS-001",
+    "source": "Financial Times / Reuters",
+    "timestamp": "2026-10-19T08:30:00Z",
+    "headline": "Strait of Hormuz Naval Blockade Escalates: Crude Oil Surges 18% as Defense Tensions Reach Crisis Point",
+    "content": "Middle Eastern geopolitical conflict intensified overnight following military interception of commercial tankers. Global oil benchmarks Brent and WTI soared nearly 18%, stoking urgent fears of global stagflation, shipping route closures, and unprecedented commodity price volatility across international financial markets.",
+    "expected_entity": "Crude Oil / Middle East",
+    "expected_category": "Geopolitical",
+    "expected_impact": 9.2
+  },
+  {
+    "id": "NEWS-002",
+    "source": "Bloomberg Markets",
+    "timestamp": "2026-10-19T09:15:00Z",
+    "headline": "Tier-1 European Regional Bank Halts Redemptions Amid $4.5B Commercial Real Estate Debt Default Wave",
+    "content": "European banking regulators have intervened after a major regional lender announced an immediate freeze on commercial property fund redemptions. The bank cited spiraling non-performing office loans, rating downgrades to junk status, and an acute liquidity shortfall threatening counterparty clearing obligations.",
+    "expected_entity": "European Regional Banking Sector",
+    "expected_category": "Credit Event",
+    "expected_impact": 8.8
+  },
+  {
+    "id": "NEWS-003",
+    "source": "Wall Street Journal",
+    "timestamp": "2026-10-19T10:00:00Z",
+    "headline": "Federal Reserve Signals Emergency 75 Bps Rate Hike as Core Inflation Accelerates to 6.2%",
+    "content": "Federal Reserve officials delivered an unexpectedly hawkish policy guidance statement today, warning that sticky service-sector inflation and persistent wage pressures necessitate an immediate 75 basis point rate increase, steepening yield curves and putting pressure on corporate debt refinancing costs.",
+    "expected_entity": "Federal Reserve / US Interest Rates",
+    "expected_category": "Macroeconomic",
+    "expected_impact": 8.1
+  },
+  {
+    "id": "NEWS-004",
+    "source": "Reuters Business",
+    "timestamp": "2026-10-19T11:20:00Z",
+    "headline": "DOJ Antitrust Division Blocks $68 Billion Megamerger in Cloud Infrastructure Sector",
+    "content": "The US Department of Justice filed a lawsuit to block the proposed mega-acquisition between top enterprise cloud providers, alleging severe anti-competitive concentration. Target company shares plummeted 14% in pre-market trading, triggering termination penalty clauses.",
+    "expected_entity": "Enterprise Cloud Sector",
+    "expected_category": "Merger/Acquisition",
+    "expected_impact": 6.4
+  },
+  {
+    "id": "NEWS-005",
+    "source": "Financial Post",
+    "timestamp": "2026-10-19T12:00:00Z",
+    "headline": "Global Sovereign Wealth Fund Allocates Record $25B Toward Renewable Infrastructure Expansion",
+    "content": "A consortium of top sovereign wealth funds unveiled an ambitious multibillion-dollar capital commitment to finance modern clean energy grids and green hydrogen ports across North America and Europe, driving strong positive momentum in sustainable fixed-income issues.",
+    "expected_entity": "Clean Energy Infrastructure",
+    "expected_category": "Product Launch",
+    "expected_impact": 4.5
+  },
+  {
+    "id": "NEWS-006",
+    "source": "CNBC Tech",
+    "timestamp": "2026-10-19T13:45:00Z",
+    "headline": "Critical Cloud Outage Disrupts Global Interbank Payment Messaging and Clearing Networks",
+    "content": "A massive synchronized outage in a top cloud hosting provider disrupted real-time settlement and SWIFT interbank messaging for four hours today, triggering emergency manual reconciliations and heightened operational risk scrutiny across G-SIB financial institutions.",
+    "expected_entity": "Global Interbank Settlement",
+    "expected_category": "Cyber/Systemic Risk",
+    "expected_impact": 7.9
+  },
+  {
+    "id": "NEWS-007",
+    "source": "Dow Jones Newswires",
+    "timestamp": "2026-10-19T14:30:00Z",
+    "headline": "Basel Committee Mandates 200 Bps Surcharge on Unhedged Wholesale Commercial Real Estate Exposures",
+    "content": "International banking supervisors published updated capital guidelines requiring tier-1 banks to hold an incremental 200 bps regulatory capital surcharge against unhedged commercial mortgage portfolios, directly compressing bank return on equity metrics.",
+    "expected_entity": "Basel Committee / Commercial Real Estate",
+    "expected_category": "Regulatory/Legal",
+    "expected_impact": 7.4
+  }
+]

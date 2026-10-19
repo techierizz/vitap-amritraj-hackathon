@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TWEET-101",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@MacroRiskAlerts",
+    "timestamp": "2026-10-19T08:35:12Z",
+    "tweet_text": "🚨 BREAKING: Hostilities ignite near Persian Gulf shipping straits. War risk insurance canceled for all tankers! $WTI crude spiking +16% in seconds. Major geopolitical contagion threat to global credit markets. #Geopolitics #OilShock",
+    "expected_category": "Geopolitical",
+    "expected_impact": 9.1
+  },
+  {
+    "id": "TWEET-102",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@CreditTrader_Alpha",
+    "timestamp": "2026-10-19T09:22:45Z",
+    "tweet_text": "⚠️ Massive distress in European sub-debt. Credit default spreads on BBB commercial property loans blowing out +280 bps today! CDS spreads widening uncontrollably. Counterparty risk is back! $DB $BNP $CS #CreditCrunch #DefaultRisk",
+    "expected_category": "Credit Event",
+    "expected_impact": 8.7
+  },
+  {
+    "id": "TWEET-103",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@FedWatcherDaily",
+    "timestamp": "2026-10-19T10:05:30Z",
+    "tweet_text": "Fed Chair warning emergency rate action is 'on the table' after CPI print. 2Y Treasury yields vertical. Fixed income portfolios taking brutal mark-to-market hit. Recession odds surging to 75%. $TLT $SPY $TNX #Macro",
+    "expected_category": "Macroeconomic",
+    "expected_impact": 8.0
+  },
+  {
+    "id": "TWEET-104",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@FintechVentures",
+    "timestamp": "2026-10-19T11:45:00Z",
+    "tweet_text": "Huge announcement: $NVDA and $MSFT just signed landmark $10B enterprise quantum AI deployment contract! Groundbreaking technology rollout ahead of schedule. Bullish for tech infrastructure capex! 🚀🚀",
+    "expected_category": "Product Launch",
+    "expected_impact": 4.8
+  },
+  {
+    "id": "TWEET-105",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@SecLitigationWire",
+    "timestamp": "2026-10-19T13:10:15Z",
+    "tweet_text": "JUST IN: Regulators announce comprehensive clampdown on unregulated wholesale shadow banking lines. Mandatory tier-1 capital buffer requirements raised across European & US lenders. $JPM $BAC $C #Regulation",
+    "expected_category": "Regulatory/Legal",
+    "expected_impact": 7.3
+  },
+  {
+    "id": "TWEET-106",
+    "source": "Twitter/X Financial Desk",
+    "handle": "@CyberRiskRadar",
+    "timestamp": "2026-10-19T14:15:40Z",
+    "tweet_text": "CRITICAL ALERT: Zero-day exploit hitting central bank liquidity routing gateways. Multiple wholesale settlement runs delayed. S&P placing affected financial entities on negative credit watch. #CyberAttack #SystemicRisk",
+    "expected_category": "Cyber/Systemic Risk",
+    "expected_impact": 8.3
+  }
+]
