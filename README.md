@@ -1,7 +1,7 @@
 # SENTINEL-RISK | Unified AI/NLP Risk Engine & Strategic Wholesale Portfolio Stress Tester - S&P Global & Crisil Campus Hackathon
 
 **Candidate Name:** Amrit Raj  
-**College Email ID:** [your_id@vitap.ac.in]  
+**College Email ID:** amrit.24bce7856@vitapstudent.ac.in
 **College / Campus:** Vellore Institute Of Technology - AP (VIT-AP)  
 **Demo Video Link:** [https://youtu.be/unlisted-demo-link](https://youtu.be/unlisted-demo-link)  
 **Slide Deck Link (if hosted externally):** [View presentation.pdf on GitHub](https://github.com/techierizz/vitap-amritraj-hackathon/blob/main/docs/presentation.pdf)  
