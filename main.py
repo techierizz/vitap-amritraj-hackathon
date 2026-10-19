@@ -36,7 +36,7 @@ def launch_api():
 
 def run_tests():
     """Runs the system verification suite."""
-    from run_tests import run_all_tests
+    from tests.run_tests import run_all_tests
     run_all_tests()
 
 

@@ -127,12 +127,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Alternative Execution Options
-- **Streamlit Interactive Cockpit (Default):** `python main.py` or `streamlit run src/dashboard/app.py`
-- **FastAPI REST Backend:** `python main.py --mode api` or `python -m uvicorn src.api.main:app --port 8000 --reload`
-- **Verification Test Suite (14/14 passing):** `python main.py --mode test` or `python run_tests.py`
-- **Windows 1-Click Runner (Starts both API & Dashboard):** `run_demo.bat`
-- **Linux / macOS Shell Script:** `./run_demo.sh`
+### Alternative Execution Modes
+- **Streamlit Interactive Cockpit (Default):** `python main.py` (or `python main.py --mode dashboard`)
+- **FastAPI REST Backend Services:** `python main.py --mode api`
+- **System Verification Suite (14/14 tests):** `python main.py --mode test`
 
 
 ### Access URLs
