@@ -5,6 +5,12 @@ Runs all tests with pure standard library or pytest.
 
 import sys
 import traceback
+from pathlib import Path
+
+# Ensure project root is in sys.path regardless of execution directory
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 # Ensure UTF-8 output on Windows terminals
 if sys.platform == "win32":
