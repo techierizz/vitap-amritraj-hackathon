@@ -290,7 +290,7 @@ with tabs[1]:
             """, unsafe_allow_html=True)
 
         with res_col3:
-            st.plotly_chart(render_impact_gauge(signal["impact_score"]), use_container_width=True)
+            st.plotly_chart(render_impact_gauge(signal["impact_score"]), use_container_width=True, key="gauge_tab2")
 
         # Trigger Evaluation Banner
         triggered = (signal["impact_score"] >= threshold) or force_run_toggle
@@ -325,7 +325,8 @@ with tabs[1]:
                     post_val=val_sum["post_stress_market_value_usd"],
                     losses_by_class=stress_result["loss_breakdown_by_asset_class"]
                 ),
-                use_container_width=True
+                use_container_width=True,
+                key="waterfall_tab2"
             )
         else:
             st.info(
@@ -354,10 +355,10 @@ with tabs[2]:
     c_chart1, c_chart2 = st.columns(2)
     with c_chart1:
         st.markdown("##### Asset Allocation by Type")
-        st.plotly_chart(render_portfolio_pie(portfolio_mgr.get_assets(), "asset_type"), use_container_width=True)
+        st.plotly_chart(render_portfolio_pie(portfolio_mgr.get_assets(), "asset_type"), use_container_width=True, key="pie_asset_type_tab3")
     with c_chart2:
         st.markdown("##### Sector Exposure Distribution")
-        st.plotly_chart(render_portfolio_pie(portfolio_mgr.get_assets(), "sector"), use_container_width=True)
+        st.plotly_chart(render_portfolio_pie(portfolio_mgr.get_assets(), "sector"), use_container_width=True, key="pie_sector_tab3")
 
     st.markdown("##### Asset Level Inventory")
     df_port = portfolio_mgr.to_dataframe()
@@ -422,12 +423,14 @@ with tabs[3]:
                 post_val=val_res["post_stress_market_value_usd"],
                 losses_by_class=res["loss_breakdown_by_asset_class"]
             ),
-            use_container_width=True
+            use_container_width=True,
+            key="waterfall_tab4"
         )
     with tab4_col2:
         st.plotly_chart(
             render_asset_comparison_bar(res["full_stressed_assets"]),
-            use_container_width=True
+            use_container_width=True,
+            key="bar_comparison_tab4"
         )
 
     st.markdown("##### 🚨 Top Impacted Wholesale Assets")
