@@ -3,7 +3,7 @@
 **Candidate Name:** Amrit Raj  
 **College Email ID:** amrit.24bce7856@vitapstudent.ac.in
 **College / Campus:** Vellore Institute Of Technology - AP (VIT-AP)  
-**Demo Video Link:** [https://youtu.be/unlisted-demo-link](https://youtu.be/unlisted-demo-link)  
+**Demo Video Link:** [https://youtu.be/Wtnciy5nJgo](https://youtu.be/Wtnciy5nJgo)  
 **Slide Deck Link (if hosted externally):** [https://speakerdeck.com/techierizz/nlp-risk-engine-and-wholesale-portfolio-stress-tester-presentation](https://speakerdeck.com/techierizz/nlp-risk-engine-and-wholesale-portfolio-stress-tester-presentation) *(also available as [docs/presentation.pdf](docs/presentation.pdf))*  
 
 ---
