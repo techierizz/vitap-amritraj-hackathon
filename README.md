@@ -4,7 +4,7 @@
 **College Email ID:** [candidate_email@college.edu]  
 **College / Campus:** [University / Institute Name]  
 **Demo Video Link:** [https://youtu.be/unlisted-demo-link](https://youtu.be/unlisted-demo-link)  
-**Slide Deck Link (if hosted externally):** [https://speakerdeck.com/candidate/sentinel-risk-crisil-presentation](https://speakerdeck.com/candidate/sentinel-risk-crisil-presentation)  
+**Slide Deck Link (if hosted externally):** [presentation.pdf](docs/presentation.pdf) *(also hosted at: https://speakerdeck.com/candidate/sentinel-risk-crisil-presentation)*  
 
 ---
 
@@ -21,6 +21,8 @@ Our solution, **SENTINEL-RISK**, bridges this gap through a two-tier modular arc
 ## 2. Architecture & Tech Stack
 
 ### System Design & Data Flow Diagram
+
+![Sentinel-Risk Architecture](docs/architecture.png)
 
 ```
 +---------------------------------------------------------------------------------------+
